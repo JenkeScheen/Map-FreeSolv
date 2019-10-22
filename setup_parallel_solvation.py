@@ -1,2 +1,0 @@
-this script should make slurm submission files by looking at the setup matrix. There will be N parameterised ligands in the ligands in the output folder;
-an estimation has to be made on how many perturbations there will be (NxN but less because of fails), then there should be some sort of user input of n bins (or n processes, whatever). then those can be submitted on section9, and each will run solvate_matrix_bin_BSS.py on a subset of the parameterised ligands.
