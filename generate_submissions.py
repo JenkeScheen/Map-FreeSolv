@@ -21,7 +21,7 @@ perturbations_per_job = int(total_perturbations/ (n_jobs))
 def generate_submission(start, end):
 	submission = str(
 				"#!/bin/bash\n"
-				"cd ../\n"
+
 
 				"#SBATCH --job-name=FreeSolv\n"
 				"#SBATCH -o serial_output/"+str(start)+"~"+str(end)+".out\n"
@@ -31,7 +31,7 @@ def generate_submission(start, end):
 				"#SBATCH -N 1\n"
 				"#SBATCH --time 48:00:00\n\n"
 
-				
+				"cd ../\n"				
 				"/home/jscheen/biosimspace.app/bin/python3.7 solvate_matrix_bin_BSS.py -start "+str(start)+" -end "+str(end)
 				)
 	return submission

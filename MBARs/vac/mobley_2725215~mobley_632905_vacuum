@@ -1,0 +1,43 @@
+# Analysing data contained in file(s) ['lambda_0.0000/simfile.dat', 'lambda_0.1000/simfile.dat', 'lambda_0.2000/simfile.dat', 'lambda_0.3000/simfile.dat', 'lambda_0.4000/simfile.dat', 'lambda_0.5000/simfile.dat', 'lambda_0.6000/simfile.dat', 'lambda_0.7000/simfile.dat', 'lambda_0.8000/simfile.dat', 'lambda_0.9000/simfile.dat', 'lambda_1.0000/simfile.dat']
+
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Simulation data is analysed using the python module pymbar
+----------------------------------------------------------
+# Writing all output to stdout
+#Lambda array was not given, trying to infer lambda values from simulation files...
+working on input file lambda_0.0000/simfile.dat
+working on input file lambda_0.1000/simfile.dat
+working on input file lambda_0.2000/simfile.dat
+working on input file lambda_0.3000/simfile.dat
+working on input file lambda_0.4000/simfile.dat
+working on input file lambda_0.5000/simfile.dat
+working on input file lambda_0.6000/simfile.dat
+working on input file lambda_0.7000/simfile.dat
+working on input file lambda_0.8000/simfile.dat
+working on input file lambda_0.9000/simfile.dat
+working on input file lambda_1.0000/simfile.dat
+#running mbar ====================================================
+K (total states) = 11, total samples = 52250
+N_k = 
+[4750 4750 4750 4750 4750 4750 4750 4750 4750 4750 4750]
+There are 11 states with samples.
+Initializing free energies to zero.
+Initial dimensionless free energies with method zeros
+f_k = 
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Final dimensionless free energies
+f_k = 
+[ 0.00000000e+00  4.15376665e-04  2.07651513e-04 -3.55730932e+01
+ -1.19407723e+02 -9.25646480e+01 -3.47730609e+01  2.93840142e+01
+  6.80468623e+01  8.63119361e+01  9.85783998e+01]
+MBAR initialization complete.
+Starting /export/users/common/BioSimSpace/sire.app/bin/analyse_freenrg: number of threads equals 32

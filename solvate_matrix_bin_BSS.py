@@ -176,8 +176,8 @@ def merge_pairs(aligned_mols, mapping, pair_name, verbose=False):
 	# map the ligand pairs:
 	try:
 		merged = BSS.Align.merge(mol1, mol2, mapping,
-							allow_ring_breaking=False,
-							allow_ring_size_change=False
+							allow_ring_breaking=True,
+							allow_ring_size_change=True
 							)
 		
 		# write the merged pair to a file:
