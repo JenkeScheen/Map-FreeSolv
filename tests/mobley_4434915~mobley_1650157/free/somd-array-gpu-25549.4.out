@@ -1,5 +1,0 @@
-CUDA DEVICES: 3
-lambda is:  0.4000
-NaN or Inf has been generated along the simulation
-Starting /export/users/common/BioSimSpace/sire.app/bin/somd-freenrg: number of threads equals 32
-srun: error: node04: task 0: Exited with exit code 255
