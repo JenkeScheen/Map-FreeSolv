@@ -1,0 +1,26 @@
+Remark line goes here
+MASS
+du 1.000         0.000               ATTN, no polarizability parameter
+
+BOND
+cl-du    0.00   0.000       ATTN, need revision
+du-du    0.00   0.000       ATTN, need revision
+
+ANGLE
+c3-cl-du    0.000       0.000   ATTN, need revision
+cl-du-du    0.000       0.000   ATTN, need revision
+du-cl-du    0.000       0.000   ATTN, need revision
+du-du-du    0.000       0.000   ATTN, need revision
+
+DIHE
+c3-cl-du-du   1    0.000         0.000           0.000      ATTN, need revision
+h1-c3-cl-du   1    0.000         0.000           0.000      ATTN, need revision
+du-cl-du-du   1    0.000         0.000           0.000      ATTN, need revision
+
+IMPROPER
+
+NONBON
+  du          0.0000  0.0000             ATTN, need revision
+
+
+

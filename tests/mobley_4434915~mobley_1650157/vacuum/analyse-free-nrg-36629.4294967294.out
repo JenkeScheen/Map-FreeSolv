@@ -1,0 +1,27 @@
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.0000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.1000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.2000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.3000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.4000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.5000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.6000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.7000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.8000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_0.9000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py:588: UserWarning: loadtxt: Empty input file: "lambda_1.0000/simfile.dat"
+  data.append(numpy.loadtxt(f))
+Traceback (most recent call last):
+  File "/export/users/common/BioSimSpace/sire.app/share/Sire/scripts/analyse_freenrg.py", line 595, in <module>
+    N_k = numpy.zeros(shape=lamvals.shape[0], dtype='int32')
+AttributeError: 'NoneType' object has no attribute 'shape'
+srun: error: node04: task 0: Exited with exit code 1

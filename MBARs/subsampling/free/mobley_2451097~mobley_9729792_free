@@ -1,0 +1,45 @@
+# Analysing data contained in file(s) ['lambda_0.0000/simfile.dat', 'lambda_0.1000/simfile.dat', 'lambda_0.2000/simfile.dat', 'lambda_0.3000/simfile.dat', 'lambda_0.4000/simfile.dat', 'lambda_0.5000/simfile.dat', 'lambda_0.6000/simfile.dat', 'lambda_0.7000/simfile.dat', 'lambda_0.8000/simfile.dat', 'lambda_0.9000/simfile.dat', 'lambda_1.0000/simfile.dat']
+
+
+==============================================================
+Sending anonymous Sire usage statistics to http://siremol.org.
+For more information, see http://siremol.org/analytics
+To disable, set the environment variable 'SIRE_DONT_PHONEHOME' to 1
+To see the information sent, set the environment variable 
+SIRE_VERBOSE_PHONEHOME equal to 1. To silence this message, set
+the environment variable SIRE_SILENT_PHONEHOME to 1.
+==============================================================
+
+Simulation data is analysed using the python module pymbar
+----------------------------------------------------------
+# Writing all output to stdout
+#Lambda array was not given, trying to infer lambda values from simulation files...
+working on input file lambda_0.0000/simfile.dat
+working on input file lambda_0.1000/simfile.dat
+working on input file lambda_0.2000/simfile.dat
+working on input file lambda_0.3000/simfile.dat
+working on input file lambda_0.4000/simfile.dat
+working on input file lambda_0.5000/simfile.dat
+working on input file lambda_0.6000/simfile.dat
+working on input file lambda_0.7000/simfile.dat
+working on input file lambda_0.8000/simfile.dat
+working on input file lambda_0.9000/simfile.dat
+working on input file lambda_1.0000/simfile.dat
+#Subsampling energies according to statistical inefficiency for pymbar
+#Subsampling gradients according to statistical inefficiency
+#running mbar ====================================================
+K (total states) = 11, total samples = 44
+N_k = 
+[4 4 4 4 4 4 4 4 4 4 4]
+There are 11 states with samples.
+Initializing free energies to zero.
+Initial dimensionless free energies with method zeros
+f_k = 
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Final dimensionless free energies
+f_k = 
+[  0.          69.87370031 113.32040862 141.77986309 154.5284736
+ 157.57004489 159.10156652 153.95118456 107.20615107  45.07870202
+ -34.08278687]
+MBAR initialization complete.
+Starting /export/users/common/BioSimSpace/sire.app/bin/analyse_freenrg: number of threads equals 32
